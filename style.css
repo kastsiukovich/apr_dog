@@ -1,0 +1,94 @@
+body {
+}
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30px;
+}
+.buttons {
+   display: flex;
+   justify-content: center;
+   padding-left: 0px;
+   margin-bottom: 20px;
+}
+.love {
+   background-color: rgb(110, 224, 110);
+   margin-right: 5px;
+   border-radius: 2px;
+   font-size: 20px;
+}
+.dislike {
+   background-color: rgb(236, 47, 47);
+   margin-left: 5px;
+   border-radius: 2px;
+   font-size: 20px;
+}
+.span1 {
+   display: inline-block;
+   background-image: url("./img/social-g325121d29_1920.png");
+   background-repeat: no-repeat;
+   background-position: 5% 3%;
+   background-size: 150px 50px;
+   width: 15px;
+   height: 15px;
+   margin-right: 4px;
+}
+.span2 {
+   display: inline-block;
+   background-image: url("./img/social-g325121d29_1920.png");
+   background-repeat: no-repeat;
+   background-position: 34% -3%;
+   background-size: 150px 50px;
+   width: 15px;
+   height: 15px;
+   margin-right: 4px;
+}
+img {
+   width: auto;
+   height: 500px;
+}
+.dog-result {
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+}
+
+.dog-result img {
+   display: inline-block;
+   width: auto;
+   height: 200px;
+}
+.dog-result-love {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   font-size: 27px;
+}
+.dog-result-dislike {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   font-size: 27px;
+}
+
+.res {
+   display: flex;
+   justify-content: space-around;
+   list-style-type: none;
+   font-size: 27px;
+   width: 50%;
+}
+.none {
+   display: none;
+}
+#result {
+   margin-top: 30px;
+   background-color: rgb(144, 110, 224);
+   margin-right: 5px;
+   border-radius: 2px;
+   font-size: 20px;
+}
+.dog {
+   margin-bottom: 10px;
+}
